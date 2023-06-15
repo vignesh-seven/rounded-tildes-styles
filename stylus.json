@@ -69,7 +69,7 @@
       "editor.lintReportDelay": 500,
       "editor.matchHighlight": "token",
       "editor.autoCloseBrackets": true,
-      "editor.autocompleteOnTyping": false,
+      "editor.autocompleteOnTyping": true,
       "editor.contextDelete": false,
       "editor.selectByTokens": true,
       "editor.arrowKeysTraverse": true,
@@ -101,24 +101,42 @@
   },
   {
     "enabled": true,
+    "updateUrl": "https://userstyles.world/api/style/10370.user.css",
     "url": "https://userstyles.world/style/10370",
-    "installDate": 1686740454520,
-    "name": "tildes_custom.css",
+    "installDate": 1686836090525,
     "sections": [
       {
-        "code": "* {\n  margin: 1px;\n  padding: 1px;\n}\n@media screen and (min-width: 800px) {\n  body {\n    max-width: 70%;\n  }\n}\nbody {\n\n  margin: auto;\n}\nmain {\n  border-radius: 20px;\n  padding-top: 1rem;\n}\n\ntextarea.form-input {\n  padding: 0.5rem 0.5rem;\n  border-radius: 20px;\n}\n\n.topic-voting-label {\n  border-radius: 0px;\n}\n\n.link-group {\n  margin: 2px;\n  background-color: #44475a;\n  border-radius: 15px;\n  padding: 0.2rem 0.5rem;\n}\n\n.topic-metadata {\n  overflow: visible;\n}\n.nav .nav-group-list li {\n  margin-bottom: 0.3rem;\n}\n\n.nav li {\n  font-size: 0.8rem;\n  text-decoration: none;\n}\n\n.btn {\n  border-radius: 20px;\n}\n.btn-link-minimal {\n  padding: 0.15rem 0.4rem;\n}\n.heading-notification > * {\n  line-height: 1.2rem;\n}\n.heading-notification .link-group {\n  font-size: 0.7rem;\n  white-space: nowrap;\n  text-decoration: none;\n  padding: 0.07rem 0.3rem;\n}\n\n.nav-item {\n  padding: 0.2rem 0rem;\n}\n.tab {\n  border-width: 0px;\n  background-color: var(--background-mixed-color);\n  border-radius: 20px;\n}\n\n.tab-item {\n  border-radius: 20px;\n  padding-left: 0.5rem;\n  padding-right: 0.5rem;\n}\n.tab-item a {\n  text-align: center;\n  width: 100%;\n  border-radius: 20px;\n}\n\n.tab-item:hover {\n  background-color: var(--button-transparent-color);\n  color: var(--button-color);\n}\n\n.active {\n\n  border-radius: 20px;\n  text-decoration: none;\n  background-color: var(--button-transparent-color);\n  color: var(--button-color);\n}\n\n.tab-listing-order {\n  overflow: scroll;\n}\n\n.tab .tab-item a {\n  border-width: 0px;\n}\n\n.topic-listing > li {\n  color: var(--foreground-mixed-color);\n  background-color: var(--background-mixed-color);\n  margin-bottom: 10px;\n  border-radius: 20px;\n}\n\n.label {\n  border-radius: 10px;\n  padding: 2px 5px;\n}\n\n.comment[data-comment-depth=\"0\"] {\n  border-bottom: 2px solid var(--border-color2);\n}\n\n\n.comment {\n  border-left: 2px solid var(--button-color);\n  border-radius: 20px;\n  overflow: hidden;\n  padding: 0px;\n  margin-left: 0;\n  margin-top: 0.5rem;\n}\n.comment-header {\n  overflow: hidden;\n  margin: 0px;\n  border-radius: 20px;\n}\n\n.btn-comment-collapse {\n  padding: 0.3rem 0.6rem;\n  margin: 0 0.1rem;\n}\n.btn-comment-collapse-label {\n  font-size: 1rem\n}\n\n.btn-used {\n  color: var(--button-color);\n}\n#sidebar {\n  padding-top: 1rem;\n  border-radius: 20px;\n  /*display: flex;\n  flex-direction: column;*/\n}\n\n.btn.btn-link {\n\n  align-self: center;\n  border: 1px solid var(--button-color);\n  font-size: 0.3rem;\n  height: 1.5rem;\n  border-radius: 20px;\n  padding: 0.5rem 1rem;\n}\n/* .btn.btn-link:hover {\n  background-color: var(--button-color);\n  color: var(--background-mixed-color);\n}*/\n.btn:focus,\n.btn:hover {\n  background-color: var(--button-transparent-color);\n}\n#sidebar .form-search .form-input {\n  max-width: unset;\n  border-radius: 20px;\n  height: 1.5rem;\n}\n\n.form-input.input-sm {\n  border-radius: 20px;\n  width: 90%;\n  height: 1.5rem;\n}\n\n.form-input.input-sm {\n  font-size: 0.7rem;\n  height: 1.5rem;\n  padding: 0.3rem 0.6rem;\n  padding-right: 0.3rem;\n}\n\n#sidebar > * {\n  padding-left: 0.3rem;\n  padding-right: 0.3rem;\n  padding-bottom: 0.3rem;\n}\n\n#sidebar .btn {\n  width: 90%;\n  align-self: center;\n}\n\n#sidebar .nav .btn-link {\n  width: 100%;\n  padding: 0.4rem 1rem;\n  border: 2px solid var(--button-transparent-color);\n}",
+        "code": "/* ==UserStyle==\n@name         Rounded Tildes - Vignesh\n@version      20230615.13.29\n@namespace    userstyles.world/user/vignesh-seven\n@description  My Tildes.net custom css file to make it look better\n@author       vignesh-seven\n@license      No License\n==/UserStyle== */",
+        "start": 0
+      },
+      {
+        "code": "/* Hello there */\n\n* {\n  margin: 1px;\n  padding: 1px;\n}\n@media screen and (min-width: 800px) {\n  body {\n    max-width: 70%;\n  }\n}\nbody {\n\n  margin: auto;\n}\nmain {\n  border-radius: 20px;\n  padding-top: 1rem;\n}\n\ntextarea.form-input {\n  padding: 0.5rem 0.5rem;\n  border-radius: 20px;\n}\n\n.topic-voting-label {\n  border-radius: 0px;\n}\n\n.link-group {\n  margin: 2px;\n  background-color: #44475a;\n  border-radius: 15px;\n  padding: 0.2rem 0.5rem;\n}\n\n.topic-metadata {\n  overflow: visible;\n}\n.nav .nav-group-list li {\n  margin-bottom: 0.3rem;\n}\n\n.nav li {\n  font-size: 0.8rem;\n  text-decoration: none;\n}\n\n.btn {\n  border-radius: 20px;\n}\n.btn-link-minimal {\n  padding: 0.15rem 0.4rem;\n}\n.heading-notification > * {\n  line-height: 1.2rem;\n}\n.heading-notification .link-group {\n  font-size: 0.7rem;\n  white-space: nowrap;\n  text-decoration: none;\n  padding: 0.07rem 0.3rem;\n}\n\n.nav-item {\n  padding: 0.2rem 0rem;\n}\n.tab {\n  border-width: 0px;\n  background-color: var(--background-mixed-color);\n  border-radius: 20px;\n}\n\n.tab-item {\n  border-radius: 20px;\n  padding-left: 0.5rem;\n  padding-right: 0.5rem;\n}\n.tab-item a {\n  text-align: center;\n  width: 100%;\n  border-radius: 20px;\n}\n\n.tab-item:hover {\n  background-color: var(--button-transparent-color);\n  color: var(--button-color);\n}\n\n.active {\n\n  border-radius: 20px;\n  text-decoration: none;\n  background-color: var(--button-transparent-color);\n  color: var(--button-color);\n}\n\n.tab-listing-order {\n  overflow: scroll;\n}\n\n.tab .tab-item a {\n  border-width: 0px;\n}\n\n.topic-listing > li {\n  color: var(--foreground-mixed-color);\n  background-color: var(--background-mixed-color);\n  margin-bottom: 10px;\n  border-radius: 20px;\n}\n\n.label {\n  border-radius: 10px;\n  padding: 2px 5px;\n}\n\n.comment[data-comment-depth=\"0\"] {\n  border-bottom: 2px solid var(--border-color2);\n}\n\n\n.comment {\n  border-left: 2px solid var(--button-color);\n  border-radius: 20px;\n  overflow: hidden;\n  padding: 0px;\n  margin-left: 0;\n  margin-top: 0.5rem;\n}\n.comment-header {\n  overflow: hidden;\n  margin: 0px;\n  border-radius: 20px;\n}\n\n.btn-comment-collapse {\n  padding: 0.3rem 0.6rem;\n  margin: 0 0.1rem;\n}\n.btn-comment-collapse-label {\n  font-size: 1rem\n}\n\n.btn-used {\n  color: var(--button-color);\n}\n#sidebar {\n  padding-top: 1rem;\n  border-radius: 20px;\n  /*display: flex;\n  flex-direction: column;*/\n}\n\n.btn.btn-link {\n\n  align-self: center;\n  border: 1px solid var(--button-color);\n  font-size: 0.3rem;\n  height: 1.5rem;\n  border-radius: 20px;\n  padding: 0.5rem 1rem;\n}\n/* .btn.btn-link:hover {\n  background-color: var(--button-color);\n  color: var(--background-mixed-color);\n}*/\n.btn:focus,\n.btn:hover {\n  background-color: var(--button-transparent-color);\n}\n#sidebar .form-search .form-input {\n  max-width: unset;\n  border-radius: 20px;\n  height: 1.5rem;\n}\n\n.form-input.input-sm {\n  border-radius: 20px;\n  width: 90%;\n  height: 1.5rem;\n}\n\n.form-input.input-sm {\n  font-size: 0.7rem;\n  height: 1.5rem;\n  padding: 0.3rem 0.6rem;\n  padding-right: 0.3rem;\n}\n\n#sidebar > * {\n  padding-left: 0.3rem;\n  padding-right: 0.3rem;\n  padding-bottom: 0.3rem;\n}\n\n#sidebar .btn {\n  width: 90%;\n  align-self: center;\n}\n\n#sidebar .nav .btn-link {\n  width: 100%;\n  padding: 0.4rem 1rem;\n  border: 2px solid var(--button-transparent-color);\n}",
+        "start": 311,
         "domains": [
           "tildes.net"
         ]
       }
     ],
-    "updateDate": 1686833292738,
-    "_id": "9a8f1af1-3e3d-475b-b041-04303287b7f9",
-    "_rev": 1686833292738,
-    "id": 1,
+    "sourceCode": "/* ==UserStyle==\n@name         Rounded Tildes - Vignesh\n@version      20230615.13.29\n@namespace    userstyles.world/user/vignesh-seven\n@description  My Tildes.net custom css file to make it look better\n@author       vignesh-seven\n@license      No License\n==/UserStyle== */\n\n@-moz-document domain(\"tildes.net\") {\n/* Hello there */\n\n* {\n  margin: 1px;\n  padding: 1px;\n}\n@media screen and (min-width: 800px) {\n  body {\n    max-width: 70%;\n  }\n}\nbody {\n\n  margin: auto;\n}\nmain {\n  border-radius: 20px;\n  padding-top: 1rem;\n}\n\ntextarea.form-input {\n  padding: 0.5rem 0.5rem;\n  border-radius: 20px;\n}\n\n.topic-voting-label {\n  border-radius: 0px;\n}\n\n.link-group {\n  margin: 2px;\n  background-color: #44475a;\n  border-radius: 15px;\n  padding: 0.2rem 0.5rem;\n}\n\n.topic-metadata {\n  overflow: visible;\n}\n.nav .nav-group-list li {\n  margin-bottom: 0.3rem;\n}\n\n.nav li {\n  font-size: 0.8rem;\n  text-decoration: none;\n}\n\n.btn {\n  border-radius: 20px;\n}\n.btn-link-minimal {\n  padding: 0.15rem 0.4rem;\n}\n.heading-notification > * {\n  line-height: 1.2rem;\n}\n.heading-notification .link-group {\n  font-size: 0.7rem;\n  white-space: nowrap;\n  text-decoration: none;\n  padding: 0.07rem 0.3rem;\n}\n\n.nav-item {\n  padding: 0.2rem 0rem;\n}\n.tab {\n  border-width: 0px;\n  background-color: var(--background-mixed-color);\n  border-radius: 20px;\n}\n\n.tab-item {\n  border-radius: 20px;\n  padding-left: 0.5rem;\n  padding-right: 0.5rem;\n}\n.tab-item a {\n  text-align: center;\n  width: 100%;\n  border-radius: 20px;\n}\n\n.tab-item:hover {\n  background-color: var(--button-transparent-color);\n  color: var(--button-color);\n}\n\n.active {\n\n  border-radius: 20px;\n  text-decoration: none;\n  background-color: var(--button-transparent-color);\n  color: var(--button-color);\n}\n\n.tab-listing-order {\n  overflow: scroll;\n}\n\n.tab .tab-item a {\n  border-width: 0px;\n}\n\n.topic-listing > li {\n  color: var(--foreground-mixed-color);\n  background-color: var(--background-mixed-color);\n  margin-bottom: 10px;\n  border-radius: 20px;\n}\n\n.label {\n  border-radius: 10px;\n  padding: 2px 5px;\n}\n\n.comment[data-comment-depth=\"0\"] {\n  border-bottom: 2px solid var(--border-color2);\n}\n\n\n.comment {\n  border-left: 2px solid var(--button-color);\n  border-radius: 20px;\n  overflow: hidden;\n  padding: 0px;\n  margin-left: 0;\n  margin-top: 0.5rem;\n}\n.comment-header {\n  overflow: hidden;\n  margin: 0px;\n  border-radius: 20px;\n}\n\n.btn-comment-collapse {\n  padding: 0.3rem 0.6rem;\n  margin: 0 0.1rem;\n}\n.btn-comment-collapse-label {\n  font-size: 1rem\n}\n\n.btn-used {\n  color: var(--button-color);\n}\n#sidebar {\n  padding-top: 1rem;\n  border-radius: 20px;\n  /*display: flex;\n  flex-direction: column;*/\n}\n\n.btn.btn-link {\n\n  align-self: center;\n  border: 1px solid var(--button-color);\n  font-size: 0.3rem;\n  height: 1.5rem;\n  border-radius: 20px;\n  padding: 0.5rem 1rem;\n}\n/* .btn.btn-link:hover {\n  background-color: var(--button-color);\n  color: var(--background-mixed-color);\n}*/\n.btn:focus,\n.btn:hover {\n  background-color: var(--button-transparent-color);\n}\n#sidebar .form-search .form-input {\n  max-width: unset;\n  border-radius: 20px;\n  height: 1.5rem;\n}\n\n.form-input.input-sm {\n  border-radius: 20px;\n  width: 90%;\n  height: 1.5rem;\n}\n\n.form-input.input-sm {\n  font-size: 0.7rem;\n  height: 1.5rem;\n  padding: 0.3rem 0.6rem;\n  padding-right: 0.3rem;\n}\n\n#sidebar > * {\n  padding-left: 0.3rem;\n  padding-right: 0.3rem;\n  padding-bottom: 0.3rem;\n}\n\n#sidebar .btn {\n  width: 90%;\n  align-self: center;\n}\n\n#sidebar .nav .btn-link {\n  width: 100%;\n  padding: 0.4rem 1rem;\n  border: 2px solid var(--button-transparent-color);\n}\n}",
+    "usercssData": {
+      "name": "Rounded Tildes - Vignesh",
+      "version": "20230615.13.29",
+      "namespace": "userstyles.world/user/vignesh-seven",
+      "description": "My Tildes.net custom css file to make it look better",
+      "author": "vignesh-seven",
+      "license": "No License"
+    },
+    "author": "vignesh-seven",
+    "description": "My Tildes.net custom css file to make it look better",
+    "name": "Rounded Tildes - Vignesh",
+    "originalDigest": "7010aa136cc0972cab0a30e0a57cf95b7c61f44f",
+    "_id": "102b5023-6eb5-4c77-a8f0-51aabfab77a0",
+    "_rev": 1686836417059,
+    "installationUrl": "https://userstyles.world/style/10370",
+    "id": 3,
     "_usw": {
       "token": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdHlsZUlEIjoxMDM3MCwidXNlcklEIjo5NDk0fQ.5vYzngIlncvvIs15ghdX-7fE1IzQ3xvpL1TsWBwfto8zojoo6Pyi8Rb-nso9_Ze6Hax5QylO_M-yOkypNrquVA",
-      "category": "tildes.net",
+      "category": "https://tildes.net",
       "created_at": "2023-06-15T11:31:31.410481879Z",
       "description": "My Tildes.net custom css file to make it look better",
       "display_name": "",
@@ -126,11 +144,11 @@
       "id": 10370,
       "license": "No License",
       "mirror_url": "",
-      "name": "tildes_custom.css",
+      "name": "Rounded Tildes - Vignesh",
       "notes": "",
       "original": "",
-      "preview_url": "https://userstyles.world/preview/10370/0t.webp",
-      "updated_at": "2023-06-15T11:31:31.410481879Z",
+      "preview_url": "https://userstyles.world/preview/10370/2t.webp",
+      "updated_at": "2023-06-15T13:29:46.852838099Z",
       "user_id": 9494,
       "username": "vignesh-seven"
     }
