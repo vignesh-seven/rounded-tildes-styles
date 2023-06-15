@@ -3,7 +3,7 @@ This is a custom Stylus theme I made for tildes.net to give it a more rounded lo
 
 ### Before you install  
  - Install the Stylus browser extension - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) | [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)  
-(_Note: This hasn't been tested on Chrome_)  
+(_Note: This hasn't been tested very well on Chrome as I mainly use Firefox_)  
 #### Auto Installation (recommended)  
  - Goto  [Rounded Tildes - Vignesh](https://userstyles.world/style/10370/rounded-tildes-vignesh) styles page  
  - Click on "Install"  
