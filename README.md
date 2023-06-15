@@ -1,7 +1,7 @@
 ## Rounded Tildes Styles   
 This is a custom Stylus theme I made for tildes.net to give it a more rounded look.  
 
-### Installation  
+### Before you install  
  - Install the Stylus browser extension - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) | [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)  
 (_Note: This hasn't been tested on Chrome_)  
 #### Auto Installation (recommended)  
