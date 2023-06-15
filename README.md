@@ -17,3 +17,6 @@ IMPORTANT NOTE: Auto-Install also makes updates possible through the Stylus exte
  - Download the styles.json file
  - Open the Stylus extension -> Manage -> Import -> select the styles.json file
  - Done!
+
+#### Update:  
+ - Open on the Stylus extension -> Manage -> Click on the 🔄 icon besides the style name -> Done! 
